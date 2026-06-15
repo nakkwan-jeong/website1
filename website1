@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>정낙관의 첫 웹사이트</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 80px;
+      background: #f7f9fc;
+    }
+    h1 { color: #222; }
+    p { color: #555; }
+  </style>
+</head>
+<body>
+  <h1>안녕하세요 👋</h1>
+  <p>이건 제가 GitHub Pages로 만든 첫 웹사이트입니다.</p>
+  <p>정낙관의 개인 페이지</p>
+</body>
+</html>
