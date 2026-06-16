@@ -12,6 +12,23 @@
             text-align: center;
         }
 
+        /* ✅ 상단 메뉴 */
+        nav {
+            background: #333;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #00d8ff;
+        }
+
         header {
             background: #222;
             color: white;
@@ -46,11 +63,18 @@
 
 <body>
 
+<!-- ✅ 상단 메뉴 -->
+<nav>
+    <a href="#intro">소개</a>
+    <a href="#career">이력</a>
+    <a href="#contact">연락</a>
+</nav>
+
 <header>
     부를부를부를예이예이 🚀
 </header>
 
-<section>
+<section id="intro">
     <h2>👋 자기소개</h2>
     <div class="card">
         저는 윤덕호 aka 부를예이 입니다 예이예이예이.<br>
@@ -58,7 +82,7 @@
     </div>
 </section>
 
-<section>
+<section id="career">
     <h2>📊 이력</h2>
     <div class="card">포토 다메다메 소리 듣기 1회 (*니폰*)</div>
     <div class="card">서랍 들추고 전남친 흔적 찾기 1회 (*니폰*)</div>
@@ -69,20 +93,18 @@
     </div>
 </section>
 
-<section>
+<section id="contact">
     <h2>📞 연락</h2>
     <div class="card">
         이메일: skiwer@naver.com
     </div>
 </section>
 
-<!-- ✅ GIF 추가 부분 -->
-<section style="text-align:center;">
+<section>
     <img 
         src="https://media2.giphy.com/media/v1.Y2lkPWZjZGU1NDk1bnh3dThuOXVvYTJtOTh1NHE2Y3NqbmZicjlrbTl0aTBoNmZibjQ1YSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/PUBxelwT57jsQ/giphy.gif"
         width="300"
-        style="border-radius:15px; box-shadow:0px 4px 10px rgba(0,0,0,0.2);"
-    >
+        style="border-radius:15px; box-shadow:0px 4px 10px rgba(0,0,0,0.2);">
 </section>
 
 <footer>
